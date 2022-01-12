@@ -3,4 +3,4 @@ project(Istogramma)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Istogramma main.cpp)
+add_executable(Istogramma main.cpp Istogramma.cpp Istogramma.h Elemento.cpp Elemento.h)

@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Istogramma.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Istogramma pippo(3);
+    std::cout << pippo.elements.size()<< std::endl;
     return 0;
 }
