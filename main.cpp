@@ -17,7 +17,8 @@ int main() {
     (*ele)->dat.setSign('*');
     (*ele)->dat.setValue(8);
     (*ele)->dat.setName("mario ");
-    pippo.drawAbsolute();
+    //pippo.drawAbsolute();
+    pippo.drawPercentage();
 
     return 0;
 }

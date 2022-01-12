@@ -21,3 +21,20 @@ void Istogramma::drawAbsolute() {
     }
 
 }
+
+void Istogramma::drawPercentage() {
+    int sum=0;
+    for (const auto &item : elements){
+        sum+=item->dat.getValue();
+
+    }
+    for (const auto &item : elements){
+        std::cout<<item->dat.getName()<<"     ";
+        float percentage=(item->dat.getValue()/sum)*100;
+        for (int i = 0; i <percentage ; ++i) {
+            std::cout<<item->dat.getSign();
+        }
+        std::cout<<std::endl;
+    }
+
+}
