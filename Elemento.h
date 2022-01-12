@@ -10,11 +10,26 @@
 
 class Elemento {
 struct data{
-public:
+private:
     std::string name;
     float value;
     char sign;
+public:
+    const std::string &getName() const;
+
+    void setName(const std::string &name);
+
+    float getValue() const;
+
+    void setValue(float value);
+
+    char getSign() const;
+
+    void setSign(char sign);
 };
+
+public:
+data dat;
 };
 
 

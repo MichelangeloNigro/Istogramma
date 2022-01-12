@@ -13,6 +13,7 @@ class Istogramma {
 public:
     Istogramma(int i);
     std::list<Elemento*> elements;
+    void drawAbsolute();
 };
 
 
